@@ -6,7 +6,7 @@ css('./assets/style.css')
 
 var app = choo({
   hash: false,
-  history: false
+  href: false
 })
 
 if (process.env.NODE_ENV !== 'production') {
