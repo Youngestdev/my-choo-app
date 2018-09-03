@@ -40,7 +40,7 @@ module.exports = class Recipe extends Component {
   createElement () {
     return html`
       <div class="row">
-        ${RecipeDetails(this.state.recipe)}
+        ${RecipeDetails(this.recipe)}
       </div>
     `
   }
