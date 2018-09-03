@@ -5,8 +5,7 @@ css('bootstrap')
 css('./assets/style.css')
 
 var app = choo({
-  hash: false,
-  href: false
+  hash: false
 })
 
 if (process.env.NODE_ENV !== 'production') {
